@@ -1,0 +1,12 @@
+shell :
+command:
+file:
+service:
+when:
+copy:
+handlers:
+docker_image;
+docker_container:
+script:
+stat:
+templates:
